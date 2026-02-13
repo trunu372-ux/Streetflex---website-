@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - StreetFlex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Same as index.html -->
+    </header>
+
+    <main>
+        <section class="cart">
+            <h1>Your Cart</h1>
+            <div id="cart-items"></div>
+            <div class="checkout">
+                <h2>Total: $<span id="total">0</span></h2>
+                <button class="btn" id="checkout-btn">Checkout</button>
+                <div id="payment-options" style="display:none;">
+                    <label><input type="radio" name="payment" value="cod"> Cash on Delivery</label>
+                    <label><input type="radio" name="payment" value="online"> Online Payment</label>
+                    <button class="btn">Confirm</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same as index.html -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

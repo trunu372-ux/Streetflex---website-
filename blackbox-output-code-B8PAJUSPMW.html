@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFlex - Affordable Streetwear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StreetFlex</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#" id="wishlist-link">Wishlist</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#" id="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 style="text-shadow: 2px 2px 0px #00FF00;">Urban Vibes, Budget Prices</h1>
+                <p>Trendy sneakers, hoodies, and more for the streets.</p>
+                <a href="shop.html" class="btn">Shop Now</a>
+            </div>
+            <img src="https://via.placeholder.com/600x400?text=Street+Model" alt="Street model in sneakers and hoodie">
+        </section>
+
+        <section class="featured">
+            <h2>Featured Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Sneakers" alt="Sneakers">
+                    <h3>Urban Sneakers</h3>
+                    <p>$35</p>
+                    <button class="btn quick-add">Add to Cart</button>
+                </div>
+                <!-- Add more cards similarly -->
+            </div>
+        </section>
+
+        <section class="new-arrivals">
+            <h2>New Arrivals</h2>
+            <div class="products-grid">
+                <!-- Similar to featured -->
+            </div>
+        </section>
+
+        <section class="sale-banner">
+            <h2>Limited Offer: 20% Off All Hoodies!</h2>
+            <a href="shop.html" class="btn">Grab It</a>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="#">Instagram</a> <a href="#">Facebook</a> <a href="#">WhatsApp</a>
+            </div>
+            <form class="newsletter">
+                <input type="email" placeholder="Subscribe to Newsletter">
+                <button type="submit">Subscribe</button>
+            </form>
+        </footer>
+    </main>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login / Sign Up</h2>
+            <form>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button type="submit">Login</button>
+                <button type="button">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
